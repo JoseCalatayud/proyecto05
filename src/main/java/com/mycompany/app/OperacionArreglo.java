@@ -31,4 +31,15 @@ public class OperacionArreglo {
         return menor;
 
     }
+
+    public double[] listaNumerosAleatorios(int longituArreglo) {
+        double[] listaNumerosAleatorios = new double[longituArreglo];
+        for (int i = 0; i < listaNumerosAleatorios.length; i++) {
+            {
+                listaNumerosAleatorios[i] = (int) Math.random() * 10;
+            }
+        }
+        return listaNumerosAleatorios;
+    }
+
 }
