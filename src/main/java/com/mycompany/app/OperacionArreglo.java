@@ -3,8 +3,9 @@ package com.mycompany.app;
 public class OperacionArreglo {
 
     public double encontrarMayor(double[] arreglo) {
-
-        double numeroMayor = 0;
+        //inicializo con el primer valor de array para tratar si todos los numeros negativos
+        double numeroMayor = arreglo[0];
+        
         for (double d : arreglo) {
             if (d > numeroMayor) {
                 numeroMayor = d;

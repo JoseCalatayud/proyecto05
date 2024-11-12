@@ -19,6 +19,13 @@ public class OperacionArregloTest {
         assertEquals(numeroEsperado, cut.encontrarMayor(ejemploArreglo));
 
     }
+    @Test
+    public void testEncontrarMayorConNegativos () {
+        double [] ejemploArreglo = {-2, -44, -54, -1, -5, -8};
+        double numeroEsperado = -1;
+        assertEquals(numeroEsperado, cut.encontrarMayor(ejemploArreglo));
+
+    }
 
     @Test
     public void testEncontrarMenor () {
