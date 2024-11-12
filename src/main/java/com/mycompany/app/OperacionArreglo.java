@@ -36,7 +36,7 @@ public class OperacionArreglo {
         double[] listaNumerosAleatorios = new double[longituArreglo];
         for (int i = 0; i < listaNumerosAleatorios.length; i++) {
             {
-                listaNumerosAleatorios[i] = (int) Math.random() * 10;
+                listaNumerosAleatorios[i] =  Math.random() * 10;
             }
         }
         return listaNumerosAleatorios;
